@@ -20,7 +20,7 @@ public class StartClient {
             String scelta=inKeyboard.readLine();
 //testare da qua e risolvere lerrore 0
             if(scelta.equals("s")) {
-                System.out.println("SOCKET EFFETTUTAO");
+                System.out.println("SOCKET SELEZIONATO");
                 SocketClient socketClient = new SocketClient();
             }
             if(scelta.equals("r")){

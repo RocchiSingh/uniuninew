@@ -18,7 +18,7 @@ import java.rmi.server.UnicastRemoteObject;
  */
 public class RmiClient extends ClientRmioSocket implements InterfacciaClientRmi{
     private String address="localhost";
-    private int port=3005;
+    private int port=3002;
     private RmiServerInterface rmiServer;
     String tokesSessione;//ritorno dalla funzione di login per.
     public RmiClient(){}

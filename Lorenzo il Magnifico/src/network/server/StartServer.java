@@ -20,10 +20,10 @@ import java.util.concurrent.Executors;
  */
 public class StartServer {
 
-    public static void main(String [] args)throws RemoteException,NamingException{
+   /* public static void main(String [] args)throws RemoteException,NamingException{
         int port=3005;
        System.out.println("avvia Start SERVER");
-        SocketServer socketServer = new SocketServer();
+        SocketServer socketServer = null;
          BufferedReader inKeyboard;
 
         inKeyboard = new BufferedReader(new InputStreamReader(System.in));
@@ -34,7 +34,7 @@ public class StartServer {
             try{
                 String scelta=inKeyboard.readLine();
                 if(scelta.equals("s")) {
-                    socketServer.startServer();
+                    socketServer=new SocketServer();
                     System.out.println("socket avviato");
                 }
 
@@ -60,5 +60,5 @@ public class StartServer {
 
         }
 
-    }
+    }*/
 }
